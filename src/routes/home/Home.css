@@ -1,0 +1,291 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../../components/variables.css';
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic');
+
+body{
+  font-family: 'PT Sans', sans-serif;
+  background: #f0f0f0;
+  padding-top: 78px;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  max-width: 1206px;
+  margin: 0 auto;
+  text-align: center;
+}
+.containerTop{
+  margin-bottom: 20px;
+}
+.containerMiddle{
+  margin-bottom: 56px;
+}
+.clasterStatus{
+  max-width: 330px;
+  border-radius: 9px;
+  border: 1px solid #e74b3b;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  h2{
+    color: #373e44;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+  }
+  span{
+    color: #878b8f;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  strong{
+    color: #373e44;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  div{
+    margin-bottom: 0px;
+  }
+}
+
+.clasterActivity{
+  border: 1px solid #e1e1e1;
+  span{
+    width: 225px;
+    margin-left: 0;
+  }
+}
+.count{
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 20px;
+  background-color: #e8e8e8;
+  margin-left: 8px;
+  text-align: center;
+  border-radius: 30px;
+}
+.icon{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.iconAlert{
+  width: 20px;
+  height: 17px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAABn0lEQVQ4T6WUv07CUBSHz6GJUTARE2Osi/AARtmwDMKmxQRZXMUHcHAkDmLiG/gA4uoiJtC42UEaNkgcSYCJioMwCBq1vaYNRWhv/4h3Ped8+d1zv1wED6cb3wwuirWeh1ZAL00yz+XAp4pssSK69bsC5Z1oCBimCYS0WEEK/xvY5rkCIqZ0ECFHrCDlnaCOCeW9aBwI82AACEBvrt8PO+3TEdhOxmoIsDGRiJBzVpBydiltgTLPZQDxijqoKGH2vtKi1ahATZMPv78KiCFtaOHkFL4adRjc3QxXSQqrgpT2DNQ1QTwzBlaKj/D5VIXX7PEvA5UETSNLQk0TwjBVBAg6AgFEtlROmFNagcmYpsXheCM1oY1GE0CzJgbUnzqA70Zdv7bpxVuzg0FkXKNJIM+JgLhtuUZgHkj/jW6KSaMRsLO7ta/6fLe0qaXLPCgdGboXWUtZkx0VJWJoNALKPNcCxDUacGY9ogOVl2c7n6/ZUjmjFXWgWRO3D4BWZwiJLAtSDTWJ3wOB5rgm0wBhqBHKFE2mBIJPVdOu/+Ff4T8hCKvPkpmijQAAAABJRU5ErkJggg==);
+}
+
+.dataIcon1{
+  width: 270px;
+  height: 271px;
+  background-image: url(/dataIcon1.png);
+}
+.mainServer{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 50px;
+}
+.mainServerIp{
+  width: 230px;
+  height: 40px;
+  border: 1px solid #e1e1e1;
+  background-color: #e8e8e8;
+  color: #373e44;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 200px;
+}
+.clasterStatus2{
+  width: 100%;
+  max-width: 220px;
+  border-radius: 10px;
+  border: 1px solid #e1e1e1;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  div{
+    color: #373e44;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}
+.clasterStatus2Success{
+  border: 1px solid #8dc63f;
+}
+.dataIcon2{
+  width: 229px;
+  height: 224px;
+  background-image: url(/dataIcon2.png);
+  margin-right: 30px;
+}
+.dataIcon3{
+  width: 199px;
+  height: 224px;
+  background-image: url(/dataIcon3.png);
+  margin-left: 30px;
+}
+.drbd{
+  width: 130px;
+  height: 40px;
+  border: 1px solid #e1e1e1;
+  background-color: #e8e8e8;
+  text-align: center;
+  border-radius: 130px;
+  line-height: 34px;
+  display: inline-block;
+  margin-top: 11px;
+}
+.node1{
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  max-width: 251px;
+  margin-left: 21px;
+  padding-right: 1px;
+}
+.arrow{
+  display: inline-block;
+  margin: 0 10px;
+  margin-top: 143px;
+  div{
+    color: #373e44;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 8px;
+  }
+}
+.iconArrows{
+  width: 186px;
+  height: 16px;
+  background: url(/arrows.png);
+}
+
+.node2{
+  max-width: 229px;
+  display: inline-block;
+  text-align: left;
+  & + .clasterStatus2{
+    margin-left: 51px;
+  }
+}
+
+.servicesContainer{
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+
+.servicesContainer2{
+  text-align: right;
+}
+
+
+.service{
+  max-width: 470px;
+  width: 100%;
+  border-radius: 9px;
+  border: 1px solid #8dc63f;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+  display: inline-block;
+  i{
+    display: block;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  h2{
+    color: #373e44;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0;
+    margin-top: -3px;
+    margin-bottom: 5px;
+  }
+  h3{
+    color: #373e44;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0;
+  }
+  p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 0;
+    margin-top: 8px;
+  }
+}
+
+.serviceSuccess{
+  border: 1px solid #8dc63f;
+  background-color: #ebf7e5;
+}
+
+.serviceInfo{
+  border: 1px solid #ffb100;
+  background-color: #fff7e5;
+}
+
+.serviceDanger{
+  border: 1px solid #e74b3b;
+  background-color: #fdedeb;
+}
+
+.settingsIcon{
+  width: 27px;
+  height: 26px;
+  background: url(/settingsIcon.png);
+}
+
+
+.toolsIcon{
+  width: 26px;
+  height: 26px;
+  background: url(/toolsIcon.png);
+}
+
+
+.planeIcon{
+  width: 26px;
+  height: 24px;
+  background: url(/planeIcon.png);
+}
